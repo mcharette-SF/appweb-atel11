@@ -49,5 +49,6 @@ function selectPeriod(period: Period) {
     <ul>
         <TimelineItem v-for="post of posts" :key="post.id" :post="post" />
     </ul>
+    <img src="../assets/images/gojo-satoru-satoru.gif" alt="Gojo Satoru" />
 </template>
 <style></style>
